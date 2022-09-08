@@ -1,3 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: aqua;
+  background-color: rgb(126, 132, 132);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 12vh;
+  background-color: #fff;
+  color: black;
+  gap: 30vh;
+}
+
+.logoImg {
+  width: 10vh;
+  height: 10vh;
+}
+
+footer {
+  background-color: #fff;
+  height: 10vh;
+  text-align: center;
+  color: black;
+  padding: 1rem;
+}
+
+section {
+  height: 100%;
+  width: 100%;
 }
